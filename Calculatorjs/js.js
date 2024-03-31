@@ -20,7 +20,7 @@ function clearDisplay(){
 //PRANK FUNCTION
 function calculate(){
     try{
-        display.value = "Miss na kita!";
+        display.value = "I Love you gar!";
         display.style.transition = "2s ease";
         display.style.color = "black";
         display.style.border = "2px solid black";
