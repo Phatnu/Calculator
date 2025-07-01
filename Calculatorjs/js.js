@@ -7,22 +7,30 @@ function appendToDisplay(input){
 function clearDisplay(){
     display.value = "";
 }
+//CALCULATOR FUNCTION
+function calculate(){
+    try{
+        display.value = eval(display.value);
+    }
+    catch(error){
+        display.value = "Error";
+    }
+}
 
-
- function calculate(){
-     try{
-         display.value = "I Miss you Adi!";
-         display.style.transition = "2s ease";
-         display.style.color = "black";
-         display.style.border = "2px solid black";
-         display.style.textAlign = "center";
-         display.style.fontSize = "2.5rem";
-     }
-     catch(error){
-         display.value = "Error";
-     }
- }
-
+//PRANK FUNCTION
+// function calculate(){
+//     try{
+//         display.value = "I Love you gar!";
+//         display.style.transition = "2s ease";
+//         display.style.color = "black";
+//         display.style.border = "2px solid black";
+//         display.style.textAlign = "center";
+//         display.style.fontSize = "2.5rem";
+//     }
+//     catch(error){
+//         display.value = "Error";
+//     }
+// }
 //ADD SPEECH FOR CALCULATOR
 let btn = document.getElementById("btnsounds");
 let text = document.getElementById("display");
