@@ -11,7 +11,7 @@ function clearDisplay(){
 
  function calculate(){
      try{
-         display.value = "I Love you gar!";
+         display.value = "I Miss you Adi!";
          display.style.transition = "2s ease";
          display.style.color = "black";
          display.style.border = "2px solid black";
